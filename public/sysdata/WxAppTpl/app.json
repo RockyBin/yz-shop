@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index",
+    "pages/login",
+    "pages/pay",
+    "pages/customservice"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#19be6b",
+    "navigationBarTitleText": "小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

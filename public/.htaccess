@@ -1,0 +1,43 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+
+    RewriteRule ^(shop/supplier)$ http://%{HTTP_HOST}/$1/ [L,R=301]
+    RewriteRule ^(shop/admin)$ http://%{HTTP_HOST}/$1/ [L,R=301]
+    RewriteRule ^(shop/front)$ http://%{HTTP_HOST}/$1/ [L,R=301]
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+	
+    # 禁用直接访问某些特殊目录或文件
+    RewriteRule (comdata.+(\.php)) / [F,L]
+    RewriteRule (\.config$) / [F,L]
+    RewriteRule (\.env) / [F,L]
+    RewriteRule (index\.php/) / [F,L]
+    RewriteRule (cgi\-bin) / [N,L]
+    RewriteRule (::\$data) / [F,L]
+    RewriteRule (::\$DATA) / [F,L]
+    RewriteRule (Application/Runtime) / [F,L]
+    RewriteRule (^caches/) / [F,L]
+    RewriteRule (^weixinlog/) / [F,L]
+    RewriteRule (^weixinlogs/) / [F,L]
+    RewriteRule (^logs/) / [F,L]
+    RewriteRule (.*)\.asp / [F,L]
+    RewriteRule (.*)\.jsp / [F,L]
+    RewriteRule [^(index)]\.php / [F,L]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} [^(vuehash)]+/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !(\.(js|css|mp3|mp4|zip|rar|doc|xls|ppt|docx|xlsx|pptx|flv|jpg|png|jpeg|gif|bmp)$)
+    RewriteRule ^ index.php [L]
+</IfModule>

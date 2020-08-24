@@ -1,0 +1,14 @@
+{
+    "name": "ModuleShop",
+    "alias": "moduleshop",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "App\\Modules\\ModuleShop\\Providers\\ModuleShopServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

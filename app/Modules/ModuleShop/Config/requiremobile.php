@@ -1,0 +1,29 @@
+<?php
+//此配置文件用来配置哪些前台接口需要让会员绑定手机
+return [
+    'App\Modules\ModuleShop\Http\Controllers\Front\Member\FinanceController@balanceInfo',
+    'App\Modules\ModuleShop\Http\Controllers\Front\Member\FinanceController@config',
+    //'App\Modules\ModuleShop\Http\Controllers\Front\Member\Center\MemberCouponController@receivedCoupon',
+    'App\Modules\ModuleShop\Http\Controllers\Front\Member\DistributionController@index',
+    'App\Modules\ModuleShop\Http\Controllers\Front\Member\Agent\AgentRewardController@index',
+    'App\Modules\ModuleShop\Http\Controllers\Front\Member\CloudStock\CloudStockCenterController@index',
+    'App\Modules\ModuleShop\Http\Controllers\Front\Member\CloudStock\PurchaseOrderController@getPayConfig',
+    'App\Modules\ModuleShop\Http\Controllers\Front\Member\CloudStock\PurchaseOrderController@payOrder',
+    //'App\Modules\ModuleShop\Http\Controllers\Front\ShoppingCart\ShoppingCartController@addProductToCart',
+    'App\Modules\ModuleShop\Http\Controllers\Front\Order\OrderController@index',
+    'App\Modules\ModuleShop\Http\Controllers\Front\Order\GroupBuyingOrderController@index',
+    'App\Modules\ModuleShop\Http\Controllers\Front\Member\CloudStock\ShopOrderController@getGoodsList',
+    'App\Modules\ModuleShop\Http\Controllers\Front\Member\CloudStock\ShopOrderController@create',
+    'App\Modules\ModuleShop\Http\Controllers\Front\Member\CloudStock\PurchaseOrderController@payOrder',
+    'App\Modules\ModuleShop\Http\Controllers\Front\Order\OrderController@createOrder',
+    'App\Modules\ModuleShop\Http\Controllers\Front\Order\GroupBuyingOrderController@createOrder',
+    'App\Modules\ModuleShop\Http\Controllers\Front\SharePaper\PaperMobiController@renderImage',
+    'App\Modules\ModuleShop\Http\Controllers\Front\Member\MemberInfoController@getInfo',
+    'App\Modules\ModuleShop\Http\Controllers\Front\Member\Dealer\DealerVerifyController@getList',
+    'App\Modules\ModuleShop\Http\Controllers\Front\Member\Dealer\DealerApplyController@getInviteConfig',
+    'App\Modules\ModuleShop\Http\Controllers\Front\Member\Dealer\AuthCertController@getInfo',
+    'App\Modules\ModuleShop\Http\Controllers\Front\Member\DistributionController@apply',
+    'App\Modules\ModuleShop\Http\Controllers\Front\Member\Agent\AgentController@getAgentApplyForm',
+    'App\Modules\ModuleShop\Http\Controllers\Front\Member\ProductCommentController@getList',
+    'App\Modules\ModuleShop\Http\Controllers\Front\Member\AreaAgent\AreaAgentController@apply'
+];

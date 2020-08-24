@@ -1,0 +1,88 @@
+{
+  "background": "/sysdata/paper/template9.png",
+  "demoimg": "/sysdata/paper/demoimg/template9.jpg",
+  "name": "模板九",
+  "template_name": "template9",
+  "sort": 10,
+  "modules": [
+    {
+      "id": "module_165389",
+      "module_type": "ModuleHead",
+      "position": "absolute",
+      "top": "12.6065%",
+      "left": "40.4542%",
+      "width": "20.7917%",
+      "height": "13.8530%",
+      "zIndex": 1
+    },
+    {
+      "id": "module_67455",
+      "module_type": "ModuleNickName",
+      "position": "absolute",
+      "top": "28.9442%",
+      "left": "16.5125%",
+      "width": "68.0000%",
+      "height": "4.6834%",
+      "zIndex": 1,
+      "color": "black",
+      "fontSize": 18,
+      "bold": 1,
+      "textAlign": "center"
+    },
+    {
+      "id": "module_768076",
+      "module_type": "ModuleText",
+      "position": "absolute",
+      "top": "36.0456%",
+      "left": "28.9875%",
+      "width": "44.2667%",
+      "height": "3.8422%",
+      "zIndex": 1,
+      "color": "black",
+      "fontSize": 16,
+      "bold": 0,
+      "text": "邀请您一起成为经销商",
+      "textAlign": "left"
+    },
+    {
+      "id": "module_639166",
+      "module_type": "ModuleImage",
+      "position": "absolute",
+      "top": "49.5544%",
+      "left": "31.6583%",
+      "width": "39.4584%",
+      "height": "26.2903%",
+      "zIndex": 1,
+      "src": "\/sysdata\/paper\/subimg\/template9-1.png",
+      "borderRadius": "0"
+    },
+    {
+      "id": "module_229537",
+      "module_type": "ModuleQrcode",
+      "position": "absolute",
+      "top": "50.6177%",
+      "left": "33.5167%",
+      "width": "35.7251%",
+      "height": "23.8028%",
+      "zIndex": 1,
+      "color": "black",
+      "logo": null,
+      "qrtype": 0
+    },
+    {
+      "id": "module_773529",
+      "module_type": "ModuleText",
+      "position": "absolute",
+      "top": "77.6353%",
+      "left": "30.3250%",
+      "width": "46.0917%",
+      "height": "3.5535%",
+      "zIndex": 1,
+      "color": "black",
+      "fontSize": 10,
+      "bold": 0,
+      "text": "长按识别二维码 即可立刻关注",
+      "textAlign": "left"
+    }
+  ]
+}

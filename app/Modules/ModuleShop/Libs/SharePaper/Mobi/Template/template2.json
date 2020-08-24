@@ -1,0 +1,73 @@
+{
+  "background":"/sysdata/paper/template2.png",
+  "demoimg":"/sysdata/paper/demoimg/template2.jpg",
+  "name":"模板三",
+  "template_name":"template2",
+  "sort":4,
+  "modules":[{
+    "id": "module_948824",
+    "module_type": "ModuleHead",
+    "position": "absolute",
+    "top": "14.0320%",
+    "left": "42.3333%",
+    "width": "15.4667%",
+    "height": "10.3020%",
+    "zIndex": 1
+  }, {
+    "id": "module_797253",
+    "module_type": "ModuleNickName",
+    "position": "absolute",
+    "top": "26.1101%",
+    "left": "41.2667%",
+    "width": "17.0667%",
+    "height": "4.2629%",
+    "zIndex": 1,
+    "color": "black",
+    "fontSize": 16,
+    "bold": 1,
+    "textAlign": "left"
+  }, {
+    "id": "module_281433",
+    "module_type": "ModuleText",
+    "position": "absolute",
+    "top": "31.2611%",
+    "left": "32.2000%",
+    "width": "37.3333%",
+    "height": "3.7300%",
+    "zIndex": 1,
+    "color": "rgba(153,153,153,1)",
+    "fontSize": 14,
+    "bold": 0,
+    "text": "邀你一起加入会员福利",
+    "textAlign": "left"
+  }, {
+    "id": "module_254872",
+    "module_type": "ModuleQrcode",
+    "position": "absolute",
+    "top": "50.7993%",
+    "left": "31.9333%",
+    "width": "35.7333%",
+    "height": "23.8011%",
+    "zIndex": 1,
+    "color": "black",
+    "logo": null,
+    "qrtype": 0
+  }, {
+    "id": "module_967557",
+    "module_type": "ModuleText",
+    "position": "absolute",
+    "top": "77.4423%",
+    "left": "29.5333%",
+    "width": "41.6000%",
+    "height": "3.1972%",
+    "zIndex": 1,
+    "color": "rgba(153,153,153,1)",
+    "fontSize": 12,
+    "bold": 0,
+    "text": "长按识别二维码即可立刻关注",
+    "textAlign": "left"
+  }]
+}
+
+
+

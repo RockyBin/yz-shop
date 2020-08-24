@@ -1,0 +1,1 @@
+d:\php-7.2.1\php artisan queue:work --tries=3

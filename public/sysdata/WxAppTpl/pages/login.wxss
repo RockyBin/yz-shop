@@ -1,0 +1,57 @@
+.container-logo {
+  text-align: center;
+  margin-top: 60rpx;
+}
+
+.container-logo image{
+  max-height: 130rpx;
+}
+
+.name {
+  text-align: center;
+  margin-top: 30rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.tips {
+  margin-top: 30rpx;
+  font-size: 28rpx;
+  width: 100%;
+}
+
+.tips text {
+  display: block;
+  line-height: 40rpx;
+  font-size: 26rpx;
+  margin-left: 160rpx;
+  color: #666;
+}
+.container-button {
+  margin-top: 46rpx;
+  position: relative;
+  width: 80%;
+  margin: 50rpx auto 0 auto;
+}
+.wechatlogo {
+  width: 36rpx;
+  height: 31rpx;
+  position: absolute;
+  top: 24rpx;
+  left: 180rpx;
+}
+.login-btn {
+  width: 100%;
+  border-radius: 50rpx;
+  background: #3CB034;
+  font-size: 32rpx;
+}
+.container-cancel {
+  text-align: center;
+  margin: 0 auto;
+}
+.cancel {
+  margin: 30rpx 0 0 0;
+  font-size: 28rpx;
+  color: #4A78C8;
+}

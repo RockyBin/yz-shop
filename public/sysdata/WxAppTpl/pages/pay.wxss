@@ -1,0 +1,53 @@
+page, .container{
+  width: 100%;
+  height: 100%;
+  background:#f7f7f7;
+}
+.order-info {
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 32rpx;
+  text-align: center;
+  font-weight: bold;
+}
+.money-info {
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 60rpx;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+.money-info .symbol {
+  font-size: 32rpx;
+}
+.receiver-info {
+  width: 100%;
+  background: white;
+  margin: 40rpx 0 30rpx 0;
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  display: flex;
+}
+.receiver-info .title {
+  height: 80rpx;
+  line-height: 80rpx;
+  padding-left: 40rpx;
+  font-size: 28rpx;
+  color: #7f7f7f;
+}
+.receiver-info .name {
+  height: 80rpx;
+  line-height: 80rpx;
+  padding-right: 40rpx;
+  text-align: right;
+  flex: 1;
+  font-size: 28rpx;
+}
+.paybtn {
+  width: 94%;
+  background: #03C360;
+}

@@ -1,0 +1,59 @@
+{
+  "background":"/sysdata/paper/template6.jpg",
+  "demoimg":"/sysdata/paper/demoimg/template6.jpg",
+  "name":"模板七",
+  "template_name":"template6",
+  "sort":8,
+  "modules":[{
+    "id": "module_355962",
+    "module_type": "ModuleHead",
+    "position": "absolute",
+    "top": "17.0515%",
+    "left": "14.3333%",
+    "width": "11.7333%",
+    "height": "7.8153%",
+    "zIndex": 1
+  }, {
+    "id": "module_555877",
+    "module_type": "ModuleNickName",
+    "position": "absolute",
+    "top": "19.0053%",
+    "left": "31.1333%",
+    "width": "14.9333%",
+    "height": "3.7300%",
+    "zIndex": 1,
+    "color": "black",
+    "fontSize": 14,
+    "bold": 1,
+    "textAlign": "left"
+  }, {
+    "id": "module_965339",
+    "module_type": "ModuleQrcode",
+    "position": "absolute",
+    "top": "77.2647%",
+    "left": "15.9333%",
+    "width": "21.6000%",
+    "height": "14.3872%",
+    "zIndex": 1,
+    "color": "black",
+    "logo": null,
+    "qrtype": 0
+  }, {
+    "id": "module_146048",
+    "module_type": "ModuleText",
+    "position": "absolute",
+    "top": "78.5080%",
+    "left": "44.2000%",
+    "width": "35.1709%",
+    "height": "12.2558%",
+    "zIndex": 1,
+    "color": "rgba(102,102,102,1)",
+    "fontSize": 13,
+    "bold": 0,
+    "text": "长按识别二维码\n\n即可与我一起共创明天",
+    "textAlign": "left"
+  }]
+}
+
+
+

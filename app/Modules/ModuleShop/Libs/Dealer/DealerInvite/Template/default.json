@@ -1,0 +1,91 @@
+{
+    "background": "/sysdata/dealer-inviteposter/default/bg.png",
+    "demoimg": "/sysdata/dealer-inviteposter/default/bg.png",
+    "name": "默认模板",
+    "template_name": "default",
+    "sort": 1,
+    "modules": [
+        {
+            "id": "module_972721",
+            "module_type": "ModuleQrcode",
+            "position": "absolute",
+            "top": "37.6364%",
+            "left": "31.6515%",
+            "width": "38.9016%",
+            "height": "25.7602%",
+            "zIndex": 3,
+            "color": "black",
+            "logo": null,
+            "qrtype": 0
+        },
+        {
+            "id": "module_941087",
+            "module_type": "ModuleHead",
+            "position": "absolute",
+            "top": "13.4975%",
+            "left": "20.9924%",
+            "width": "12.7917%",
+            "height": "8.3485%",
+            "zIndex": 1
+        },
+        {
+            "id": "module_149847",
+            "module_type": "ModuleNickName",
+            "position": "absolute",
+            "top": "15.6111%",
+            "left": "36.0000%",
+            "width": "49.8637%",
+            "height": "3.8990%",
+            "zIndex": 1,
+            "color": "black",
+            "fontSize": 18,
+            "bold": 1,
+            "textAlign": "left"
+        },
+        {
+            "id": "module_435433",
+            "module_type": "ModuleText",
+            "position": "absolute",
+            "top": "24.5000%",
+            "left": "28.4583%",
+            "width": "56.4848%",
+            "height": "3.5556%",
+            "zIndex": 1,
+            "color": "black",
+            "fontSize": 14,
+            "bold": 0,
+            "text": "\u9080\u8bf7\u60a8\u52a0\u5165TA\u7684\u56e2\u961f\uff0c\u6210\u4e3a",
+            "textAlign": "left"
+        },
+        {
+            "id": "module_614593",
+            "module_type": "ModuleLevel",
+            "position": "absolute",
+            "top": "30.0101%",
+            "left": "34.8561%",
+            "width": "31.7235%",
+            "height": "4.0758%",
+            "zIndex": 1,
+            "color": "rgba(172,122,51,1)",
+            "fontSize": 16,
+            "bold": 1,
+            "text": "\u56e2\u4ee3\u7b49\u7ea7",
+            "textAlign": "center"
+        },
+        {
+            "id": "module_893662",
+            "module_type": "ModuleText",
+            "position": "absolute",
+            "top": "64.2702%",
+            "left": "33.2652%",
+            "width": "35.1971%",
+            "height": "3.1970%",
+            "zIndex": 1,
+            "color": "rgba(0,0,0,0.5)",
+            "fontSize": 12,
+            "bold": 0,
+            "text": "\u8bc6\u522b\u4e8c\u7ef4\u7801\u586b\u5199\u7533\u8bf7\u4fe1\u606f",
+            "textAlign": "left"
+        }
+    ]
+}

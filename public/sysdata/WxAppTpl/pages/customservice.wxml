@@ -1,0 +1,16 @@
+
+<!--<button open-type="getUserInfo" bindgetuserinfo="getUserInfo" style="position:fixed;bottom:100px;right:50px;z-index:9999">获取信息</button>-->
+<view class="title">
+  欢迎来到客服中心
+</view>
+<view class="title2">
+  快点击下方按钮开始咨询吧!
+</view>
+<view class="img">
+  <image src="images/custom-service.jpg" mode="aspectFit"></image>
+</view>
+<view class="button-container">
+  <button open-type="contact" class="button"
+  session-from="nickName={{userInfo.nickName}}|avatarUrl={{userInfo.avatarUrl}}|gender={{userInfo.gender}}|country={{userInfo.country}}|province={{userInfo.province}}|city={{userInfo.city}}"
+  >立即咨询</button>
+</view>

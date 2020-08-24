@@ -1,0 +1,73 @@
+{
+  "background":"/sysdata/paper/template1.png",
+  "demoimg":"/sysdata/paper/demoimg/template1.png",
+  "name":"模板二",
+  "template_name":"template1",
+  "sort":3,
+  "modules":[{
+    "id": "module_963492",
+    "module_type": "ModuleQrcode",
+    "position": "absolute",
+    "top": "50.7993%",
+    "left": "28.7333%",
+    "width": "42.6667%",
+    "height": "28.4192%",
+    "zIndex": 1,
+    "color": "black",
+    "logo": null,
+    "qrtype": 0
+  }, {
+    "id": "module_769913",
+    "module_type": "ModuleHead",
+    "position": "absolute",
+    "top": "37.8330%",
+    "left": "24.4667%",
+    "width": "10.4000%",
+    "height": "6.9272%",
+    "zIndex": 1
+  }, {
+    "id": "module_602366",
+    "module_type": "ModuleNickName",
+    "position": "absolute",
+    "top": "38.3659%",
+    "left": "37.2667%",
+    "width": "12.8000%",
+    "height": "3.1972%",
+    "zIndex": 1,
+    "color": "rgba(52,51,84,1)",
+    "fontSize": 12,
+    "bold": 1,
+    "textAlign": "left"
+  }, {
+    "id": "module_511558",
+    "module_type": "ModuleText",
+    "position": "absolute",
+    "top": "41.3854%",
+    "left": "37.0000%",
+    "width": "28.8000%",
+    "height": "3.1972%",
+    "zIndex": 1,
+    "color": "rgba(142,141,160,1)",
+    "fontSize": 12,
+    "bold": 0,
+    "text": "向你推荐了会员名片",
+    "textAlign": "left"
+  }, {
+    "id": "module_515285",
+    "module_type": "ModuleText",
+    "position": "absolute",
+    "top": "82.0604%",
+    "left": "37.0000%",
+    "width": "30.1333%",
+    "height": "3.7300%",
+    "zIndex": 1,
+    "color": "rgba(142,141,160,1)",
+    "fontSize": 14,
+    "bold": 0,
+    "text": "扫描识别二维码",
+    "textAlign": "left"
+  }]
+}
+
+
+

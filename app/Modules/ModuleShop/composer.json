@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/moduleshop",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "App\\Modules\\ModuleShop\\Providers\\ModuleShopServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Modules\\ModuleShop\\": ""
+        }
+    }
+}

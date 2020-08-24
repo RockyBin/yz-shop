@@ -1,0 +1,32 @@
+{
+  "common": {
+    "data_error": "数据错误",
+    "data_not_support": "不支持此类型的数据",
+    "data_miss": "请输入完整的信息",
+    "save_ok": "保存成功",
+    "save_fail": "保存失败",
+    "action_ok": "操作成功",
+    "action_fail": "操作失败",
+    "verify_code_fail": "验证码不正确",
+    "password_diff": "密码不一致",
+    "old_password_error": "旧密码不正确",
+    "password_strength": "密码必须8位以上，包含数字和字母"
+  },
+  "refund": {
+    "ori_not_found": "找不到原始交易记录",
+    "has_refund": "退款记录已经存在，不能重复退款",
+    "to_balance": "退款到余额",
+    "to_bank": "退款到原支付帐户",
+    "reason": "退款原因"
+  },
+  "wx": {
+    "data_only_one": "只能添加一条数据"
+  },
+  "admin": {
+    "login_ok": "登录成功",
+    "password_error": "用户名/手机号和密码不匹配，请重新输入",
+    "not_exist": "用户名/手机号不存在，请重新输入",
+    "user_exist": "登陆账号已存在，请重新输入",
+    "freeze": "该员工账号已被禁用，请联系管理员"
+  }
+}

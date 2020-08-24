@@ -1,0 +1,73 @@
+{
+  "background":"/sysdata/paper/template7.png",
+  "demoimg":"/sysdata/paper/demoimg/template7.png",
+  "name":"模板一",
+  "template_name":"template7",
+  "sort":2,
+  "modules":[{
+    "id": "module_90653",
+    "module_type": "ModuleHead",
+    "position": "absolute",
+    "top": "11.0097%",
+    "left": "42.3292%",
+    "width": "14.9292%",
+    "height": "9.9439%",
+    "zIndex": 1
+  }, {
+    "id": "module_301254",
+    "module_type": "ModuleNickName",
+    "position": "absolute",
+    "top": "130px",
+    "left": "16.0000%",
+    "width": "68.0000%",
+    "height": "unset",
+    "zIndex": 1,
+    "color": "black",
+    "fontSize": 16,
+    "bold": 1,
+    "textAlign": "center"
+  }, {
+    "id": "module_49046",
+    "module_type": "ModuleText",
+    "position": "absolute",
+    "top": "29.6597%",
+    "left": "24.7292%",
+    "width": "52.0000%",
+    "height": "3.3748%",
+    "zIndex": 1,
+    "color": "rgba(153,153,153,1)",
+    "fontSize": 13,
+    "bold": 0,
+    "text": "你好！我是某某，很高兴认识你！",
+    "textAlign": "left"
+  }, {
+    "id": "module_352366",
+    "module_type": "ModuleQrcode",
+    "position": "absolute",
+    "top": "42.0931%",
+    "left": "33.2667%",
+    "width": "33.5957%",
+    "height": "22.3773%",
+    "zIndex": 1,
+    "color": "black",
+    "logo": null,
+    "qrtype": 0
+  }, {
+    "id": "module_841775",
+    "module_type": "ModuleText",
+    "position": "absolute",
+    "top": "71.2256%",
+    "left": "28.7292%",
+    "width": "44.2667%",
+    "height": "3.9049%",
+    "zIndex": 1,
+    "color": "rgba(153,153,153,1)",
+    "fontSize": 12,
+    "bold": 0,
+    "text": "长按识别二维码即可立刻关注",
+    "textAlign": "left"
+  }]
+}
+
+
+

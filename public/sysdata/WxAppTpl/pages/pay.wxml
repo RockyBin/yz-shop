@@ -1,0 +1,9 @@
+<view class="container">
+  <view class="order-info">支付订单 {{payInfo.order_id}}</view>
+  <view class="money-info"><text class="symbol">￥</text><text>{{payInfo.money}}</text></view>
+  <view class="receiver-info">
+    <text class="title">收款方</text>
+    <text class="name">{{receiver}}</text>
+  </view>
+  <button class="paybtn" bindtap="doPay" type="primary">立即支付</button>
+</view>

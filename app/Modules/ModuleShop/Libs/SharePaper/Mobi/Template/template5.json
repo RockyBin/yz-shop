@@ -1,0 +1,73 @@
+{
+  "background":"/sysdata/paper/template5.png",
+  "demoimg":"/sysdata/paper/demoimg/template5.png",
+  "name":"模板六",
+  "template_name":"template5",
+  "sort":7,
+  "modules":[{
+    "id": "module_8994",
+    "module_type": "ModuleHead",
+    "position": "absolute",
+    "top": "22.3801%",
+    "left": "19.9333%",
+    "width": "10.4000%",
+    "height": "6.9272%",
+    "zIndex": 1
+  }, {
+    "id": "module_524655",
+    "module_type": "ModuleQrcode",
+    "position": "absolute",
+    "top": "33.5702%",
+    "left": "32.4667%",
+    "width": "35.7333%",
+    "height": "23.8011%",
+    "zIndex": 1,
+    "color": "black",
+    "logo": null,
+    "qrtype": 0
+  }, {
+    "id": "module_430043",
+    "module_type": "ModuleText",
+    "position": "absolute",
+    "top": "26.2877%",
+    "left": "33.2667%",
+    "width": "25.6000%",
+    "height": "3.1972%",
+    "zIndex": 1,
+    "color": "rgba(153,153,153,1)",
+    "fontSize": 12,
+    "bold": 0,
+    "text": "邀你一起坐拥分红",
+    "textAlign": "left"
+  }, {
+    "id": "module_740271",
+    "module_type": "ModuleNickName",
+    "position": "absolute",
+    "top": "22.7353%",
+    "left": "33.2667%",
+    "width": "13.8667%",
+    "height": "3.3748%",
+    "zIndex": 1,
+    "color": "black",
+    "fontSize": 13,
+    "bold": 1,
+    "textAlign": "left"
+  }, {
+    "id": "module_361882",
+    "module_type": "ModuleText",
+    "position": "absolute",
+    "top": "60.9236%",
+    "left": "35.6667%",
+    "width": "28.8000%",
+    "height": "3.1972%",
+    "zIndex": 1,
+    "color": "rgba(102,102,102,1)",
+    "fontSize": 12,
+    "bold": 0,
+    "text": "扫描二维码即可查看",
+    "textAlign": "left"
+  }]
+}
+
+
+

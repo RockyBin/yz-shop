@@ -1,0 +1,19 @@
+<view class="container">
+	<view class="container-logo">
+		<image mode="aspectFit" src="{{logo}}" />
+	</view>
+	<view class="name">
+		{{name}}
+	</view>
+	<view class="tips">
+		<text>为了更好的购物体验，请您先完善信息</text>
+		<text>登录激活会员</text>
+	</view>
+	<view class="container-button">
+		<button type="primary" class="login-btn" open-type="getPhoneNumber" bind:getphonenumber="onGetPhoneNumber">　　微信一键授权</button>
+		<image class="wechatlogo" mode="widthFix" src="images/wechat-logo-white.png" />
+	</view>
+	<view class="container-cancel">
+		<view class="cancel" bindtap="goBack">暂不登录</view>
+	</view>
+</view>

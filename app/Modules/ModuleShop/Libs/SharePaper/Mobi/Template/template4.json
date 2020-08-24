@@ -1,0 +1,73 @@
+{
+  "background":"/sysdata/paper/template4.png",
+  "demoimg":"/sysdata/paper/demoimg/template4.png",
+  "name":"模板五",
+  "template_name":"template4",
+  "sort":6,
+  "modules":[{
+    "id": "module_708226",
+    "module_type": "ModuleHead",
+    "position": "absolute",
+    "top": "6.2139%",
+    "left": "7.1292%",
+    "width": "12.8000%",
+    "height": "8.5230%",
+    "zIndex": 1
+  }, {
+    "id": "module_227378",
+    "module_type": "ModuleNickName",
+    "position": "absolute",
+    "top": "6.9244%",
+    "left": "23.6667%",
+    "width": "14.9292%",
+    "height": "3.7217%",
+    "zIndex": 1,
+    "color": "rgba(255,255,255,1)",
+    "fontSize": 14,
+    "bold": 1,
+    "textAlign": "left"
+  }, {
+    "id": "module_441528",
+    "module_type": "ModuleText",
+    "position": "absolute",
+    "top": "11.1873%",
+    "left": "23.6667%",
+    "width": "25.6000%",
+    "height": "3.1944%",
+    "zIndex": 1,
+    "color": "rgba(255,255,255,0.93)",
+    "fontSize": 12,
+    "bold": 0,
+    "text": "邀您一起分销赚钱",
+    "textAlign": "left"
+  }, {
+    "id": "module_145297",
+    "module_type": "ModuleQrcode",
+    "position": "absolute",
+    "top": "41.7351%",
+    "left": "26.8667%",
+    "width": "46.6667%",
+    "height": "31.0806%",
+    "zIndex": 1,
+    "color": "black",
+    "logo": null,
+    "qrtype": 0
+  }, {
+    "id": "module_847533",
+    "module_type": "ModuleText",
+    "position": "absolute",
+    "top": "79.0714%",
+    "left": "32.1917%",
+    "width": "36.2584%",
+    "height": "3.7217%",
+    "zIndex": 1,
+    "color": "rgba(102,102,102,1)",
+    "fontSize": 14,
+    "bold": 0,
+    "text": "扫描二维码围观店铺",
+    "textAlign": "left"
+  }]
+}
+
+
+
